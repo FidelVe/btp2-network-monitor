@@ -198,6 +198,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+app.openapi_url = "/foo/openapi.json";
 app.add_middleware(
     CORSMiddleware,
     allow_origins = ["*"]

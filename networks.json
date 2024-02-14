@@ -1,0 +1,29 @@
+[
+  {
+    "type": "icon",
+    "endpoint": "https://ctz.solidwallet.io/api/v3",
+    "network": "0x1.icon",
+    "name": "ICON",
+    "bmc": "cxee7a00755a757e3c519a0616456030e33dc9d47f",
+    "rx_limit": 4,
+    "symbol": "tICX"
+  },
+  {
+    "type": "eth",
+    "endpoint": "https://bsc-dataseed1.binance.org/",
+    "network": "0x38.bsc",
+    "name": "BSC",
+    "bmc": "0x24415977c566f9300Ea6F0aC75AEA0c09C500e46",
+    "rx_limit": 4,
+    "symbol": "tBNB"
+  },
+  {
+    "type": "eth",
+    "endpoint": "https://ethereum.publicnode.com",
+    "network": "0x1.eth",
+    "name": "Ethereum",
+    "bmc": "0xC355aDF0a9D64f29c0642adF8374f76a20B3fA9d",
+    "rx_limit": 4,
+    "symbol": "tETH"
+  }
+]

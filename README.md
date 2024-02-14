@@ -27,7 +27,7 @@ network informations.
 | `decimal`  | integer |   YES    | Number of decimals in the fee (default: 19)         |
 
 So, estimated time limit after sending TX to send a message is sum of the followings.
-* `rx_limit` of source chain : to request message delivery with user's transaction 
+* `rx_limit` of source chain : to request message delivery with user's transaction
 * `tx_limit` of source chain : to confirm message delivery request on the source.
 * `rx_limit` of destination chain : to receive message by relay's transaction
 
@@ -128,7 +128,7 @@ Then start container consider followings.
 ```shell
 docker run -it -d --name btp2-monitor \
     -v data:/app/data \
-    -p 8000:<my_port> btp2-monitor
+    -p 8100:<my_port> btp2-monitor
 ```
 
 Then bring up your browser, then enter URL `http://localhost:<my_port>`

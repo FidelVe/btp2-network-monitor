@@ -2,9 +2,9 @@ import React from "react";
 import { Heading, Flex, Badge } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
 
-const Header = () => {
+const Header = ({url}) => {
     const versionQuery = useQuery(["version"], async () => {
-        const res = await fetch('/version');
+        const res = await fetch(url+'/version');
         return await res.json();
     }, {
         staleTime: Infinity,
